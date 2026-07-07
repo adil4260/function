@@ -4,6 +4,6 @@ function doubleIt(number) {
 }
 console.log('i will call the function');
 doubleIt(5);
-doubleIt(5);
-doubleIt(5);
-doubleIt(5);
+doubleIt(16);
+doubleIt(122);
+doubleIt(200);

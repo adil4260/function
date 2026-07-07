@@ -34,4 +34,4 @@ function addAll(a, b, c, d, e) {
     console.log('value of total is', total);
 }
 addAll(1, 2, 3, 4,); //output: value of total is NaN
-addAll(1, 2, 3, 4, 5);
+addAll(1, 2, 3, 4, 5); //output: value of total is 15
