@@ -1,10 +1,11 @@
+//2
 function vaatkhao() {
     console.log("Hello, World!");
     console.log('hand wash before eating');
     console.log('eat food');
     console.log('wash hand after eating');
 }
-// vaatkhao();
+// vaatkhao();  //output: Hello, World!  hand wash before eating eat food wash hand after eating
 
 
 
@@ -16,22 +17,8 @@ function square(number) {
     const borgo = number * number;
     console.log('value of borgo is', borgo);
 }
-square(4);
-square(5);
-square(322)
+square(4);  //output: 4   valu of square is 4    value of borgo is 16
+//square(5);
+//square(322)
 
 
-function add(num1, num2) {
-    const sum = num1 + num2;
-    console.log('value of sum is', sum);
-}
-add(4, 5);
-add(10, 20);
-
-
-function addAll(a, b, c, d, e) {
-    const total = a + b + c + d + e;
-    console.log('value of total is', total);
-}
-addAll(1, 2, 3, 4,); //output: value of total is NaN
-addAll(1, 2, 3, 4, 5); //output: value of total is 15

@@ -1,3 +1,4 @@
+//4
 function doubleIt(number) {
     const double = number * 2;
     console.log(number, double);

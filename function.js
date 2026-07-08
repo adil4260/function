@@ -1,4 +1,6 @@
-const number = 45;
+//1
+
+//const number = 45;
 
 function brush() {
     console.log('Pick up brush');
