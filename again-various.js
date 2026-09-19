@@ -19,4 +19,5 @@ function numberOfEliments(numbers) {
     const len = numbers.length;
     return len;
 }
-numberOfEliments([1, 2, 3, 4, 5]); //output: 5
+//output: 5
+console.log(numberOfEliments([1, 2, 3, 4, 5])); //output: 5

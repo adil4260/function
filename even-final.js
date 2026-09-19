@@ -1,10 +1,8 @@
 //9
 function evenNumbersOnly(numbers) {
-
     const evens = [];
 
     for (const number of numbers) {
-
         if (number % 2 === 0) {
             console.log('even number is', number);
             evens.push(number);

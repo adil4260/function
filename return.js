@@ -6,5 +6,6 @@ function Tentimes(number) {
 }
 Tentimes(5);
 
-const output = Tentimes(5);
-console.log('output', output); //output: 50
+// const output = Tentimes(5);
+// console.log('output', output); //output: 50
+console.log(Tentimes(5))  //output:50

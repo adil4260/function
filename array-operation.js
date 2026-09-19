@@ -1,8 +1,8 @@
 function sumOfNumber(numbers) {
-    console.log(numbers);
+    //console.log(numbers);
 }
 
-//const numbs = sumOfNumber([1, 2, 3, 4, 5]);
+const numbs = sumOfNumber([1, 2, 3, 4, 5]);
 // const sum= sumOfNumber(numbs);
 //console.log('sum of number is', numbs); //output: sum of number is undefined
 
@@ -11,15 +11,13 @@ function sumOfNumber(numbers) {
 
 //for loop
 function sumOfNumber(numbers) {
-
     let sum = 0;
+
     for (const number of numbers) {
-        console.log(number);
         sum = sum + number;
     }
     return sum;
 }
+const total = sumOfNumber([1, 2, 3, 4, 5]);
 
-const number = sumOfNumber([1, 2, 3, 4, 5]);
-// const sum= sumOfNumber(numbs);
-console.log('sum of number is', number);
+console.log('sum of number is', total);

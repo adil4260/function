@@ -12,13 +12,12 @@ function evenSizedStrings(str) {
     console.log(str, - size);
     if (size % 2 === 0) {
         console.log('even sized string');
-
-        return true;
+        // return true;
     }
     else {
         console.log('odd sized string');
 
-        return false;
+        // return false;
     }
 }
 evenSizedStrings('comilla  university'); //output: comilla  university 20 even sized string true
